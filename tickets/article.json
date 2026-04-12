@@ -1,0 +1,281 @@
+{
+    "magasin": "Costco Canada",
+    "devise": "CAD",
+    "derniere_mise_a_jour": "2025-11-09T00:10:46",
+    "produits": [
+        {
+            "ref": "1611189",
+            "nom": "La Parisienne Ultra Eau Froide",
+            "categorie": "Entretien",
+            "format": "250 brassées",
+            "prix": 18.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "notes": "biodégradable (préférence)",
+            "source_image": "IMG_4648.jpeg"
+        },
+        {
+            "ref": "27316",
+            "nom": "Schwartz’s Poitrine de bœuf",
+            "categorie": "Viandes",
+            "format": "au kg",
+            "prix": 22.99,
+            "devise": "CAD",
+            "unite_prix": "per_kg",
+            "notes": "prix par kg (2.299/100 g)",
+            "source_image": "IMG_4660.jpeg"
+        },
+        {
+            "ref": "2158349",
+            "nom": "MadeGood Barres granola",
+            "categorie": "Collations",
+            "format": "30 × 24 g",
+            "prix": 14.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4675.jpeg"
+        },
+        {
+            "ref": "1508701",
+            "nom": "Renna Salade de produits de mer dans l’huile",
+            "categorie": "Prêt-à-manger",
+            "format": "800 g",
+            "prix": 16.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4661.jpeg"
+        },
+        {
+            "ref": "1768293",
+            "nom": "Fromagerie L’Ancêtre Baluchon",
+            "categorie": "Fromages",
+            "format": "2 × 175 g",
+            "prix": 13.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4657.jpeg"
+        },
+        {
+            "ref": "2078105",
+            "nom": "Miss Vickie’s Sel marin & vinaigre",
+            "categorie": "Collations",
+            "format": "572 g",
+            "prix": 5.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4652.jpeg"
+        },
+        {
+            "ref": "386159",
+            "nom": "NaturSource Amandes Tamari",
+            "categorie": "Épicerie sèche",
+            "format": "950 g",
+            "prix": 16.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4676.jpeg"
+        },
+        {
+            "ref": "411946",
+            "nom": "La Meunerie Milanaise Farine tout usage bio",
+            "categorie": "Épicerie sèche",
+            "format": "11.34 kg",
+            "prix": 21.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4672.jpeg"
+        },
+        {
+            "ref": "1323118",
+            "nom": "Kirkland Signature Papier parchemin (paquet de 2)",
+            "categorie": "Cuisine",
+            "format": "lot de 2",
+            "prix": 19.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4649.jpeg"
+        },
+        {
+            "ref": "1716006",
+            "nom": "Bananes biologiques équitables",
+            "categorie": "Fruits",
+            "format": "au kg",
+            "prix": 3.39,
+            "devise": "CAD",
+            "unite_prix": "per_kg",
+            "source_image": "IMG_4667.jpeg"
+        },
+        {
+            "ref": "1180127",
+            "nom": "Nature’s Touch Petits fruits bio (surgelés)",
+            "categorie": "Surgelé",
+            "format": "1.5 kg",
+            "prix": 17.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4668.jpeg"
+        },
+        {
+            "ref": "1845733",
+            "nom": "Hytrend Sacs compostables",
+            "categorie": "Entretien",
+            "format": "paquet de 50",
+            "prix": 13.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4651.jpeg"
+        },
+        {
+            "ref": "174695",
+            "nom": "Pommes P’tites Duos (Canada)",
+            "categorie": "Fruits",
+            "format": "sac",
+            "prix": 7.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4662.jpeg"
+        },
+        {
+            "ref": "1900686",
+            "nom": "Unibroue Calendrier de l’Avent (24 × 355 ml)",
+            "categorie": "Boissons",
+            "format": "24 × 355 ml",
+            "prix": 37.23,
+            "devise": "CAD",
+            "unite_prix": "total",
+            "notes": "inclut consigne",
+            "source_image": "IMG_4665.jpeg"
+        },
+        {
+            "ref": "901991",
+            "nom": "Kirkland Signature Sucre biologique",
+            "categorie": "Épicerie sèche",
+            "format": "4.54 kg",
+            "prix": 13.49,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4673.jpeg"
+        },
+        {
+            "ref": "878519",
+            "nom": "Kirkland Signature Sacs industriels",
+            "categorie": "Entretien",
+            "format": "paquet de 60",
+            "prix": 19.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4650.jpeg"
+        },
+        {
+            "ref": "397200",
+            "nom": "Kashi Barres quinoa",
+            "categorie": "Collations",
+            "format": "40 × 20 g",
+            "prix": 11.49,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4674.jpeg"
+        },
+        {
+            "ref": "18080",
+            "nom": "Ambrosi Parmigiano Reggiano 30 mois",
+            "categorie": "Fromages",
+            "format": "au kg",
+            "prix": 29.99,
+            "devise": "CAD",
+            "unite_prix": "per_kg",
+            "source_image": "IMG_4658.jpeg"
+        },
+        {
+            "ref": "1231460",
+            "nom": "Summum Huile d’olive extra vierge",
+            "categorie": "Huiles",
+            "format": "3 L",
+            "prix": 27.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4670.jpeg"
+        },
+        {
+            "ref": "1424970",
+            "nom": "Cashmere Premium Papier hygiénique",
+            "categorie": "Hygiène",
+            "format": "40 × 250 feuilles",
+            "prix": 26.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4664.jpeg"
+        },
+        {
+            "ref": "264844",
+            "nom": "Almond Breeze Originale non sucrée (lait d’amande)",
+            "categorie": "Boissons",
+            "format": "6 × 946 ml",
+            "prix": 12.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4666.jpeg"
+        },
+        {
+            "ref": "1156724",
+            "nom": "Fromage St‑Guillaume Cheddar fort 1 an",
+            "categorie": "Fromages",
+            "format": "640 g",
+            "prix": 14.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4656.jpeg"
+        },
+        {
+            "ref": "1836212",
+            "nom": "Galbani Mozzarella fresca",
+            "categorie": "Fromages",
+            "format": "3 × 227 g",
+            "prix": 9.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "notes": "prix promo, régulier 12.99",
+            "source_image": "IMG_4655.jpeg"
+        },
+        {
+            "ref": "1872003",
+            "nom": "St‑Dalfour Tartinade aux bleuets",
+            "categorie": "Épicerie sucrée",
+            "format": "2 × 396 ml",
+            "prix": 12.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4669.jpeg"
+        },
+        {
+            "ref": "1129575",
+            "nom": "Naturegg Œufs moyens biologiques",
+            "categorie": "Frais",
+            "format": "2 × 12",
+            "prix": 11.79,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4663.jpeg"
+        },
+        {
+            "ref": "83214",
+            "nom": "Huîtres de Beausoleil",
+            "categorie": "Poisson & fruits de mer",
+            "format": "18 par caisse",
+            "prix": 21.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4654.jpeg"
+        },
+        {
+            "ref": "1062087",
+            "nom": "Boulangerie St‑Méthode Pain du grand‑père",
+            "categorie": "Boulangerie",
+            "format": "2 × 600 g",
+            "prix": 6.99,
+            "devise": "CAD",
+            "unite_prix": "each",
+            "source_image": "IMG_4653.jpeg"
+        }
+    ]
+}
