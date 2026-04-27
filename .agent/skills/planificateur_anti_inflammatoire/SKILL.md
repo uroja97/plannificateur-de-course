@@ -37,9 +37,21 @@ Assurez-vous de proposer des recettes respectant les principes d'une alimentatio
 - **Budget** : Environ 400$ CAD pour deux semaines complètes.
 - **Produits d'Entretien** : Même si le but est la planification des repas, à la fin de la génération de la liste de courses, demandez systématiquement à l'utilisateur s'il désire ajouter des produits d'usage domestique comme la lessive.
 
+## Gestion des Stocks et Inventaire
+- **Source de Vérité Strict** : Pour chaque planification, la source de vérité UNIQUE est le fichier `base_de_donnees/stock_actuel.md`, **pondérée par le temps écoulé**.
+- **Déduction Temporelle** : Si le dernier planning ou la dernière mise à jour du stock date d'il y a plus de 10-15 jours, déduisez automatiquement que les produits frais et viandes (non congelées) sont épuisés. Gardez les produits secs/congelés selon leurs grammages initiaux.
+- **Distinction Catalogue vs Stock** : 
+    - `base_de_donnees/produits_frequents_costco.md` est un **CATALOGUE** (prix, codes, formats). Il ne garantit PAS la présence physique d'un produit.
+    - `base_de_donnees/stock_actuel.md` est le **GARDE-MANGER**. Seuls les articles listés ici (ou dans les achats prévus) peuvent être utilisés dans les recettes.
+- **Interdiction Formelle de Hallucination** : NE JAMAIS supposer qu'un produit est en stock (ex: "J'ai sûrement des noix de cajou") sans vérification dans `stock_actuel.md`.
+- **Réconciliation Systématique** : Avant de générer le menu, listez mentalement (ou dans vos pensées) les ingrédients requis et validez-les contre le stock réel.
+- **Produits manquants** : Si un ingrédient est nécessaire mais absent :
+    1. Proposez une substitution avec ce qui est en stock (ex: amandes au lieu de noix).
+    2. OU proposez de l'ajouter à la prochaine liste de courses.
+
 ## Comportement Attendu
-- Vous ne devez produire aucun code pour ces tâches, seulement du texte, des tableaux et interagir comme un assistant intelligent et expert en nutrition/logistique.
-- Vous maintiendrez et utiliserez le fichier `base_de_donnees/produits_frequents_costco.md` à chaque fois qu'un ticket de caisse est fourni, pour apprendre les prix et les habitudes de la famille.
-- Privilégiez des recettes qui peuvent être préparées en lots ("batch-cooking") ou où les restes d'un souper peuvent servir au dîner du lendemain pour gagner du temps et respecter le budget.
-- **Fiches Détaillées obligatoires** : Lors de la création des fiches jour par jour, vous devez TOUJOURS aller "jusqu'au bout" et rédiger les 14 jours complets sans jamais abréger. Incluez pour chaque jour les cases à cocher `[ ]` des ingrédients, la recette des 4 repas et l'astuce de batch-cooking.
-- **Vérification d'Inventaire** : Avant ou pendant la génération de la liste de courses, demandez expressément à l'utilisateur quels produits de la liste il possède déjà (ex: épices, huiles, féculents) afin de les déduire du coût estimé final.
+- **Mise à jour de l'inventaire** : Après chaque analyse de ticket (ex: répertoire `courses_DDMMYY`), l'agent doit impérativement mettre à jour `stock_actuel.md` (quantités réelles) ET `produits_frequents_costco.md` (nouveaux prix).
+- **Planification Durable** : Privilégiez des recettes qui épuisent les gros formats Costco (ex: utiliser le canard entier sur 3 repas différents) pour éviter le gaspillage.
+- **Fiches Détaillées obligatoires** : Rédigez les 14 jours complets sans jamais abréger. Vous devez IMPÉRATIVEMENT structurer chaque jour avec : 1) une liste à puces listant les ingrédients et leurs **quantités exactes** ligne par ligne, 2) une sous-section de `*Préparation :*` pour chaque repas avec les recettes détaillées pas-à-pas (four, minutes, découpe), et 3) une ligne de batch-cooking.
+- **Validation Anti-Hallucination** : Avant de livrer le planning, relisez-le et vérifiez que **chaque ingrédient** (ex: noix, épices spécifiques, types de protéines) figure explicitement dans le fichier de stock.
+

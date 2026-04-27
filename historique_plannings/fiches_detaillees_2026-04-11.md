@@ -17,16 +17,16 @@ Voici votre planificateur quotidien détaillé pour les 14 jours entiers du menu
 - [ ] 6 Œufs
 - [ ] 4-5 Patates douces
 - [ ] 600g Haricots verts bio
-- [ ] Pommes et Noix de cajou
+- [ ] Pommes et Amandes Tamari
 
 #### 🍳 Recettes et Préparations :
 - **Déjeuner (Smoothie) :** 
   - [ ] Mixer les bleuets, bananes, lait d'amande et 1 poignée d'épinards.
 - **Dîner (Salade) :** 
   - [ ] Cuire les œufs durs. 
-  - [ ] Assembler épinards, œufs coupés, avocats en dés, noix de cajou. Ajouter un filet d'huile d'olive Summum.
+  - [ ] Assembler épinards, œufs coupés, avocats en dés, amandes tamari. Ajouter un filet d'huile d'olive Summum.
 - **Collation (Pommes) :** 
-  - [ ] Trancher les pommes, servir avec des noix.
+  - [ ] Trancher les pommes, servir avec des amandes.
 - **Souper (Saumon au four) :** 
   - [ ] Placer le saumon entier sur une plaque protégée de papier parchemin (huile Summum, herbes, zeste citron).
   - [ ] Couper en cubes les patates douces, ajouter sel Herbamare et rôtir. 
@@ -38,7 +38,7 @@ Voici votre planificateur quotidien détaillé pour les 14 jours entiers du menu
 
 ### 📆 Jour 2
 #### 🛒 Ingrédients à sortir :
-- [ ] Gruau/Avoine, Pacanes Kirkland, Baies
+- [ ] Gruau/Avoine, Amandes Tamari (NaturSource), Baies
 - [ ] 600g Boeuf haché
 - [ ] 3 Avocats
 - [ ] 2 Poivrons
@@ -47,7 +47,7 @@ Voici votre planificateur quotidien détaillé pour les 14 jours entiers du menu
 
 #### 🍳 Recettes et Préparations :
 - **Déjeuner (Gruau) :** 
-  - [ ] Chauffer le gruau (eau ou lait d'amande). Garnir de baies et pacanes.
+  - [ ] Chauffer le gruau (eau ou lait d'amande). Garnir de baies et amandes tamari.
 - **Dîner (Restes) :** 
   - [ ] Réchauffer gentiment les plats de saumon et de patates douces.
 - **Collation (Crudités) :** 
@@ -187,7 +187,7 @@ Voici votre planificateur quotidien détaillé pour les 14 jours entiers du menu
 
 ### 📆 Jour 8
 #### 🛒 Ingrédients à sortir :
-- [ ] Gruau, Lait d'Amande, 2 Pommes, Cannelle, Pacanes
+- [ ] Gruau, Lait d'Amande, 2 Pommes, Cannelle, Amandes Tamari
 - [ ] 1 Paquet Poitrine de bœuf Schwartz's (~1kg)
 - [ ] 1.5 kg Patates jaunes
 - [ ] Moutarde de Dijon, Laitue
@@ -197,7 +197,7 @@ Voici votre planificateur quotidien détaillé pour les 14 jours entiers du menu
 #### 🍳 Recettes et Préparations :
 - **Déjeuner (Gruau pommes cannelle) :** 
   - [ ] Cuire les pommes en dés 5 min au micro-ondes (ou poêle) avec de la cannelle. 
-  - [ ] Chauffer le gruau, ajouter les pommes et noix pacanes.
+  - [ ] Chauffer le gruau, ajouter les pommes et amandes tamari.
 - **Dîner (Restes) :** 
   - [ ] Réchauffer les hauts de cuisses et le quinoa aux champignons.
 - **Collation :** 
@@ -321,7 +321,7 @@ Voici votre planificateur quotidien détaillé pour les 14 jours entiers du menu
 - **Dîner (Restes) :** 
   - [ ] Shakshuka au four à micro-ondes (avec une tranche de pain).
 - **Collation :** 
-  - [ ] Amandes ou Cajous Yupik.
+  - [ ] Amandes Tamari Costco.
 - **Souper (Saumon Rôti et Asperges) :** 
   - [ ] Cuisiner le poisson en douceur (au four avec un trait de citron). Placer les asperges arrosées d'huile sur la même plaque. 
   - [ ] Simple, sain et anti-inflammatoire pur.
