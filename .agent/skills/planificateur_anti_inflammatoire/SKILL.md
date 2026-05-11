@@ -36,6 +36,9 @@ Assurez-vous de proposer des recettes respectant les principes d'une alimentatio
 - **Quantités de Viandes/Protéines Costco** : Les formats Costco étant énormes (ex: 3x600g de bœuf, grand filet de saumon, immenses paquets de volaille), **NE PRÉVOYEZ JAMAIS plus de 2 à 3 paquets de protéines animales majeures** par cycle de 2 semaines. Un paquet Costco doit servir pour de multiples repas (batch-cooking, restes, ou déclinaisons). Ne listez pas une viande différente chaque soir, cela ferait exploser le budget et les quantités !
 - **Budget** : Environ 400$ CAD pour deux semaines complètes.
 - **Produits d'Entretien** : Même si le but est la planification des repas, à la fin de la génération de la liste de courses, demandez systématiquement à l'utilisateur s'il désire ajouter des produits d'usage domestique comme la lessive.
+- **Articles par défaut** : Ajoutez TOUJOURS 2 boîtes d'œufs et un minimum de 2 cartons de lait d'amande (Almond Breeze) par défaut dans chaque liste de courses générée.
+- **Légumineuses (Pois chiches, Lentilles)** : L'utilisateur n'en veut pas et Costco n'en vend généralement pas. N'utilisez JAMAIS de pois chiches ni de lentilles dans vos recettes, privilégiez le bœuf haché, le poulet, le saumon ou les œufs à la place.
+- **Huile d'olive** : Demandez TOUJOURS à l'utilisateur s'il lui faut de l'huile d'olive avant de l'ajouter à la liste de courses. Ne l'ajoutez pas par défaut.
 
 ## Gestion des Stocks et Inventaire
 - **Source de Vérité Strict** : Pour chaque planification, la source de vérité UNIQUE est le fichier `base_de_donnees/stock_actuel.md`, **pondérée par le temps écoulé**.
@@ -54,4 +57,5 @@ Assurez-vous de proposer des recettes respectant les principes d'une alimentatio
 - **Planification Durable** : Privilégiez des recettes qui épuisent les gros formats Costco (ex: utiliser le canard entier sur 3 repas différents) pour éviter le gaspillage.
 - **Fiches Détaillées obligatoires** : Rédigez les 14 jours complets sans jamais abréger. Vous devez IMPÉRATIVEMENT structurer chaque jour avec : 1) une liste à puces listant les ingrédients et leurs **quantités exactes** ligne par ligne, 2) une sous-section de `*Préparation :*` pour chaque repas avec les recettes détaillées pas-à-pas (four, minutes, découpe), et 3) une ligne de batch-cooking.
 - **Validation Anti-Hallucination** : Avant de livrer le planning, relisez-le et vérifiez que **chaque ingrédient** (ex: noix, épices spécifiques, types de protéines) figure explicitement dans le fichier de stock.
+- **Cohérence absolue Recettes / Courses** : Chaque ingrédient mentionné dans les fiches de préparation doit PROVENIR soit du fichier de stock, soit de la liste de courses générée. Ne présumez jamais de la présence d'épices (ex: sel, poivre, cannelle, curry) si l'utilisateur indique ne plus rien avoir. Ajoutez-les à la liste.
 
